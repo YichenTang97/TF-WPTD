@@ -1,10 +1,10 @@
 # Supplementary code for data synthesis and denoising
 
-The package includes all necessary code and data for synthesising EEG trials (with or without error-related potentials - ErrPs) and performing single trial denoising. Both the novel threshold-free wavelet packet transform-based denoising (TF-WPTD) method (proposed) and the so-called NZT method (baseline) are included.
+This package contains supplementary code for our work following [1] (details will be available after been published). The package includes all necessary code and data for synthesising EEG trials (with or without error-related potentials - ErrPs) and performing single trial denoising. Both the novel threshold-free wavelet packet transform-based denoising (TF-WPTD) method (proposed) and the so-called NZT method (baseline) [2] are included.
 
-This package also provides a notebook that performs denoising steps and illustrates denoising results. 
+This package also provides a notebook (`Simulation_and_denoising_example.ipynb`), performing denoising steps and illustrating denoising results. 
 
-The EEG data synthesis was based on the real human EEG recorded in our previous work [3]. The data synthesis and TF-WPTD method are described in Methods.pdf.
+The EEG data synthesis was based on the real human EEG recorded in our previous work [1]. The data synthesis settings and the TF-WPTD method are briefly described in `Methods.pdf`.
 
 # How to run the sample notebook
 
@@ -99,12 +99,9 @@ We would also like to thank https://github.com/LightingResearchCenter for sharin
 
 # Refereces
 
-[1] Yeung, N., Bogacz, R., Holroyd, C. B., & Cohen, J. D. (2004). Detection of synchronized oscillations 
-in the electroencephalogram: an evaluation of methods. _Psychophysiology_, 41(6), 822-832.
+[1] Tang, Y., Zhang, J. J., Corballis, P. M., & Hallum, L. E. (2021, November). Towards the 
+classification of error-related potentials using riemannian geometry. In _2021 43rd Annual International 
+Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)_ (pp. 5905-5908). IEEE.
 
 [2] Ahmadi, M., & Quiroga, R. Q. (2013). Automatic denoising of single-trial evoked potentials. 
 _NeuroImage_, 66, 672-680.
-
-[3] Tang, Y., Zhang, J. J., Corballis, P. M., & Hallum, L. E. (2021, November). Towards the 
-classification of error-related potentials using riemannian geometry. In _2021 43rd Annual International 
-Conference of the IEEE Engineering in Medicine & Biology Society (EMBC)_ (pp. 5905-5908). IEEE.
