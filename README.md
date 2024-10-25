@@ -91,6 +91,13 @@ The implementation of the NZT denoising method. Cloned from https://github.com/L
 
 The implementation used to generate simulated EEG data. Cloned from https://github.com/pchrapka/phasereset/tree/809996cbbc63a6af71528d5b5bfa5c13765947aa
 
+
+# Denoising results on real EEG data
+
+Figure belows shows that the TF-WPTD method successfully denoised single trial EEG recordings (right panels). High frequency noises and the alpha band simultaneous EEG activities were removed from the signals. The resulting EEG trials and averaged ERPs were clean and clear.
+
+![alt text](raw_vs_denoised.png)
+
 # Acknowledgement
 
 We would like to thank https://github.com/pchrapka for sharing the MATLAB code implementing the EEG data synthesis method as described in [1].
