@@ -1,6 +1,6 @@
 # Supplementary code for data synthesis and denoising
 
-This package contains supplementary code for our work following [1] (details will be available after been published). The package includes all necessary code and data for synthesising EEG trials (with or without error-related potentials - ErrPs) and performing single trial denoising. Both the novel threshold-free wavelet packet transform-based denoising (TF-WPTD) method (proposed) and the so-called NZT method (baseline) [2] are included.
+This package contains supplementary code for our work following [1] (included as Chapter 5 in my thesis - [Feature and classification analyses of the electroencephalogram (EEG) recorded during the perception and production of emotional vocalisations](https://digitalnz.org/records/62738061)). The package includes all necessary code and data for synthesising EEG trials (with or without error-related potentials - ErrPs) and performing single trial denoising. Both the novel threshold-free wavelet packet transform-based denoising (TF-WPTD) method (proposed) and the so-called NZT method (baseline) [2] are included.
 
 This package also provides a notebook (`Simulation_and_denoising_example.ipynb`), performing denoising steps and illustrating denoising results. 
 
